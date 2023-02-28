@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(103, 103, 103);
+}
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color:#84c1cb ;
+    color: #10121d;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #a38cff;
+    color: #ffa582;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #fff4a5;
+}
+.aside {
+    background-color: #da90f0;
+    padding: 150px;
+    color: #000080;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-repeat: no-repeat;
+    background-image: url("img/halo1.png");
+}
+
+.footer {
+    background-color: #FF6347;
+    color: #000480;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+
+    
+   
+@media only screen and (max-width: 500px) {
+    .aside {
+       
+       background-image: url("img/oni.png"); 
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <center> <h1>UNIDAD 2</h1></center>
+</div>
+
+<div class="row">
+
+<div class="col-3 menu">
+  <ul>
+    <li><a href="https://tblizzarl.github.io/Practic1/">Practica 1</a></li>
+    <li><a href="https://tblizzarl.github.io/LineaTiempo/">Practica 2</a></li>
+    <li><a href="https://tblizzarl.github.io/Practic3/">Practica 3</a></li>
+    <li><a href="https://tblizzarl.github.io/Practica4/">Practica 4</a></li>
+    <li><a href="https://tblizzarl.github.io/Practica5/">Practica 5</a></li>
+    <li><a href="https://tblizzarl.github.io/Practica6/">Practica 6</a></li>
+    <li><a href="https://tblizzarl.github.io/Practica7/index.html">Practica 7</a></li>
+    <li><a href="https://tblizzarl.github.io/Practica-8/">Practica 8</a></li>
+  </ul>
+</div>
+
+<div class="col-6">
+  <h1><center>cv</center></h1>
+
+  <video width="200" height="200" autoplay controls>
+      <source src="Vid/pres.mp4" type="video/mp4">
+  </video><br>
+  <center> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3775.7518952944965!2d-97.10305604961896!3d18.8536963871531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c502aeffa1f763%3A0xcee54f43b0f44c78!2sNte.%2012%20%26%20Ote.%209%2C%20Emiliano%20Zapata%2C%2094303%20Orizaba%2C%20Ver.!5e0!3m2!1ses-419!2smx!4v1676918632471!5m2!1ses-419!2smx"width="400" height="300" style="border:29px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>  <h2><center>INFORMACION PERSONAL</center></h2>
+       
+      <hr><h3>DATOS PERSONALES</h3>
+      <ol><li style="color:rgb(0, 0, 0);
+        font-family: arial;
+        font-size: 20px;" type="square"> Nombre completo: Herrera Aviles Derek</li>
+          <li style="color:rgb(0, 0, 0);
+          font-family: arial;
+          font-size: 20px;" type="square">Fecha de naciemiento: 05/10/02</li>
+          <li style="color:rgb(0, 0, 0);
+          font-family: arial;
+          font-size: 20px;" type="square">Lugar de naciemiento: Cordoba ver.</li></ol>
+       <h3>FORMACI&oacute;N ACADEMICA</h3>
+       <ol><li style="color:rgb(0, 0, 0);
+        font-family: arial;
+        font-size: 20px;" type="square">2020-2024: Instituto Tecnologico de Orizaba</li>
+          <li style="color:rgb(0, 0, 0);
+          font-family: arial;
+          font-size: 20px;" type="square">2017-2020: Instituto de Estudios de Bachillerato del Estado de Oaxaca</li>
+          <li style="color:rgb(0, 0, 0);
+          font-family: arial;
+          font-size: 20px;" type="square">2014-2017: Escuela Secundaria Tecnica #53</li></ol>
+       <h3>Esperiencia laboral</h3>
+       <ol><li style="color:rgb(0, 0, 0);
+        font-family: arial;
+        font-size: 20px;" type="square"> 2016-2027: Diseñador de Pagina Web</li>
+          <li style="color:rgb(0, 0, 0);
+          font-family: arial;
+          font-size: 20px;" type="square">2020-2021: Modelado 3D </li>
+          <li style="color:rgb(0, 0, 0);
+          font-family: arial;
+          font-size: 20px;" type="square">2022-2023 Diseño Grafico</li></ol></div>
+
+<div class="col-3 right">
+    
+<div class="aside">
+
+  </div>
+</div>
+
+</div>
+
+<div class="footer">
+  <p>Cambiar el tama&ntilde;o de la ventana del navegador para ver c&oacute;mo responde el contenido al redimensionamiento.</p>
+</div>
+
+</body>
+</html>
